@@ -57,6 +57,7 @@ img, video {
   grid-column-end: span 4;
   background-color: black;
   font-family: 'Roboto Mono', monospace;
+  font-size: 3vmin;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 1vmin;
