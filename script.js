@@ -3,23 +3,9 @@ var userInput;
 var webOutput;
 var outputText;
 
-
-
 document.addEventListener('DOMContentLoaded', function(event) {
 
-  /// Init RELLAX for Parallax
-  var rellax = new Rellax('.rellax');
-
-  /// Init GLIDE for carousel slideshow
-  new Glide('.glide').mount()
-
-  /// Init LOZAD for lazy loading
-  const observer = lozad('.lozad', {
-    loaded: function(el) {
-      el.classList.add('lozad-fully-loaded');
-    }
-  });
-  observer.observe();
+  new Glide('.glide').mount();
 
   userButton = document.getElementById("user-button");
   userInput = document.getElementById("user-input");
@@ -31,14 +17,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
     userNumber(webOutput);
   });
 
-
   function userNumber(num){
-  if (num > 2){
-  alert("yikes");
+
+    alert("yikes");
+
   }
-  else {
-  alert("not bad");
-  }
-  console.log(userNum);
-  }
-});
+})
