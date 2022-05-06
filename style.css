@@ -26,7 +26,20 @@ body {
 
 .header {
   background-color: black;
-  font-size: 4vmin;
+  font-size: 7vmin;
+  height: 60vmin;
+  line-height: 20vmin;
+  background-image: url('codebackground.gif');
+  font-family: 'Roboto Mono', monospace;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  font-size: 3vmin;
   line-height: 10vmin;
   background-image: url('codebackground.gif');
   font-family: 'Roboto Mono', monospace;
@@ -34,7 +47,6 @@ body {
   background-size: cover;
   background-position: center;
   text-align: center;
-
 }
 
 .fullWidth {
